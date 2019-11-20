@@ -28,7 +28,7 @@ class ScienceNewsDB(object):
     def __init__(self, rssurls):
         self.rssurls = rssurls
         self.update_news()
-        #bug mock
+        #bug fixed
 
     def update_news(self):
         self.news = retrieve_science_news(self.rssurls)
